@@ -1,6 +1,8 @@
 import "./TodoCounter.css"
 
+
 function TodoCounter({completadas, total, loading}) {
+
   
   if(!loading){
     return (
@@ -8,9 +10,12 @@ function TodoCounter({completadas, total, loading}) {
       
       <h1 className="TodoCounter">Crea tu primer To Do!</h1>
 
-      : completadas == total ?
-
-      <h1 className="TodoCounter">Felicitaciones, completaste todas tus tareas!</h1>
+      : completadas == total ? (
+        <>
+          <h1 className="TodoCounter">Felicitaciones, completaste todas tus tareas!</h1>
+        </>
+      )
+      
     
       :
 
