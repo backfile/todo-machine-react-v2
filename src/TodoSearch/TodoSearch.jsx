@@ -11,7 +11,7 @@ function TodoSearch({searchValue, setSearchValue, addTodo}){
         className="input" 
         type="text" 
         value={searchValue}
-        placeholder="Añadir o filtrar tareas"
+        placeholder="Limpiar..."
         onChange={(Event)=>{
           setSearchValue(Event.target.value)
         }} />

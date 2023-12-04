@@ -29,7 +29,6 @@ function AppUi({
 
         {loading && <TodoLoading/>}
         {error && <p>error</p>}
-        {(!loading && searchedTodos.length == 0) && <TodoEmpty/>}
 
         {searchedTodos.map((todo, index) => (
           <TodoItem

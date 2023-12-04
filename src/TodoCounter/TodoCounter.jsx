@@ -4,9 +4,13 @@ function TodoCounter({completadas, total, loading}) {
   
   if(!loading){
     return (
-      completadas == total?
+      total == 0 ?
+      
+      <h1 className="TodoCounter">Crea tu primer To Do!</h1>
 
-      <h1 className="TodoCounter">Felicitaciones, completaste todas tus tareas! 🎉</h1>
+      : completadas == total ?
+
+      <h1 className="TodoCounter">Felicitaciones, completaste todas tus tareas!</h1>
     
       :
 

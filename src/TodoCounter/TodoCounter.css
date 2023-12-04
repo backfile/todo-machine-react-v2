@@ -4,8 +4,10 @@
     text-align: center;
     margin: 15px;
     padding: 45px;
-    color: rgb(0, 0, 0);
-    background-color: #ffffff;
+    color: rgb(88, 88, 88);
+    background-color: #a8dadc;
     border-radius: 10px;
-    box-shadow: 0 1px 10px #333;
+    box-shadow: 0 1px 10px;
+    font-weight: bolder;
+    border: none;
 }
