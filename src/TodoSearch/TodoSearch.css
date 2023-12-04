@@ -1,0 +1,25 @@
+.container{
+    text-align: center;
+}
+
+.input{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 28px;
+    border: none;
+    box-shadow: 0 1px 10px;
+    border-radius: 5px;
+}
+
+.input:focus{
+    outline-color: rgb(0, 0, 0) ;
+}
+
+.button{
+    position: relative;
+}
+
+.button:hover{
+    transition: all 0.2s;
+    transform: scale(1.2);
+}

@@ -1,0 +1,64 @@
+.loading-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading{
+    font-size: 50px;
+}
+
+@keyframes loading1{
+    0%{
+        transform: scale(1.5);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+    
+}
+
+@keyframes loading2{
+    33%{
+        transform: scale(1.5);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+
+}
+
+@keyframes loading3{
+    66%{
+        transform: scale(1.5);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+
+}
+
+
+
+.loading.uno{
+    animation-name: loading1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.loading.dos{
+    animation-name: loading2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.loading.tres{
+    animation-name: loading3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
